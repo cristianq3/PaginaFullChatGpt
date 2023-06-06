@@ -1,0 +1,359 @@
+/* Estilos para la barra de navegación */
+html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    position: relative;
+  }
+
+nav {
+    background: #333;
+    color: #fff;
+  }
+
+  nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px 20px;
+    z-index: 1000;
+    /* Agrega otros estilos según tus preferencias */
+  }
+  
+  /* Estilos adicionales para los elementos de la barra de navegación */
+  .navbar a {
+    color: #000000;
+    text-decoration: none;
+    /* Agrega otros estilos según tus preferencias */
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  nav ul li {
+    padding: 10px;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  /* Estilos para el resto de la página */
+  header, section, footer {
+    padding: 50px;
+  }
+  
+  footer {
+    background: #f5f5f5;
+    text-align: center;
+  }
+
+  /* SECCION HERO */
+
+  #hero {
+    background-image: url('https://cdn.leonardo.ai/users/14881c64-1646-47cf-bbc7-c85d2eb01d50/generations/b1cc7ded-a69a-4167-93cb-9425551fafe8/Leonardo_Select_Imagen_de_portada_de_persona_profesor_de_guit_1.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+  }
+  
+  .hero-content {
+    text-align: center;
+    color: #fff;
+  }
+  
+  .hero-content h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ff0000;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+  }
+
+
+  #portfolio {
+    padding: 50px 0;
+  }
+  
+  .portfolio-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .portfolio-card {
+    width: 300px;
+    margin: 20px;
+    padding: 20px;
+    background-color: #f5f5f5;
+    text-align: center;
+  }
+  
+  .portfolio-card img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+  }
+  
+  .portfolio-card h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .portfolio-link {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ff0000;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+  }
+
+
+  #datos {
+    padding: 50px 0;
+    background-color: #f5f5f5;
+  }
+  
+  .datos-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+  }
+  
+  .datos-image {
+    width: 30%;
+    margin-left:50px;
+  }
+  
+  .datos-image img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .datos-content {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+  }
+  
+  .datos-section {
+    padding: 20px;
+  }
+  
+  .datos-section h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .datos-section p {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+
+  #testimonios {
+    padding: 50px 0;
+  }
+  
+  .testimonios-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .testimonio-card {
+    width: 300px;
+    margin: 20px;
+    padding: 20px;
+    background-color: #f5f5f5;
+    text-align: center;
+  }
+  
+  .testimonio-card img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+  }
+  
+  .testimonio-card h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .testimonio-card p {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  
+  .testimonio-social {
+    margin-top: 20px;
+  }
+  
+  .testimonio-social a {
+    color: #000;
+    text-decoration: none;
+  }
+  
+  .testimonio-social i {
+    margin-right: 5px;
+  }
+
+
+  #formacion {
+    padding: 50px 0;
+    background-color: #f5f5f5;
+  }
+  
+  .formacion-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+  }
+  
+  .formacion-image {
+    width: 30%;
+  }
+  
+  .formacion-image img {
+    width: 100%;
+    height: auto;
+    margin-left: 30px;
+  }
+  
+  .formacion-content {
+    width: 70%;
+    padding-left: 20px;
+    text-align: center;
+  }
+  
+  .formacion-content h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .formacion-content ul {
+    list-style: disc;
+    margin-left: 20px;
+    font-size: 16px;
+    line-height: 1.5;
+    list-style: none;
+  }
+
+
+  #contacto {
+    text-align: center;
+    padding: 50px 0;
+  }
+  
+  .contacto-container {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .contacto-container h2 {
+    margin-bottom: 20px;
+  }
+  
+  form {
+    text-align: left;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="tel"],
+  textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+  }
+  
+  input[type="submit"] {
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  .whatsapp-button {
+    display: inline-block;
+    background-color: #25d366;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    margin-left: 10px;
+  }
+
+
+
+
+
+
+  footer {
+    height: 55px;
+    background-color: #f5f5f5;
+    color: #999999;
+    text-align: center;
+    padding: 10px;
+  }
+  
+  .footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .footer-text {
+    font-size: 12px;
+  }
+  
+  .footer-links ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .footer-links li {
+    display: inline;
+    margin-right: 10px;
+  }
+  
+  .footer-links a {
+    color: #999999;
+    text-decoration: none;
+  }
+  
+  .footer-links a:hover {
+    text-decoration: underline;
+  }
+  /* Agrega los estilos responsive según tus necesidades */
+
